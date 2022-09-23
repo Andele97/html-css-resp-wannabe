@@ -32,6 +32,7 @@ h2 {
     color: #fffffe;
 }
 
+
 h3 {
     margin-bottom: 1rem;
     font-size: 1.5rem;
@@ -42,8 +43,8 @@ img {
 }
 
 /************************************************
-    UTILITIES
- ************************************************/
+UTILITIES
+************************************************/
 
 /* LAYOUT */
 .container {
@@ -51,6 +52,7 @@ img {
     margin: 0 auto;
     padding: 0 20px;
 }
+
 
 .row {
     display: flex;
@@ -67,8 +69,8 @@ img {
 }
 
 /************************************************
-    SITE SECTIONS
- ************************************************/
+SITE SECTIONS
+************************************************/
 
 /* HEADER */
 .site-header {
@@ -125,5 +127,55 @@ img {
 }
 
 /************************************************
-    SOLUZIONE RESPONSIVE
- ************************************************/
+SOLUZIONE RESPONSIVE
+************************************************/
+/* PHONE */
+@media (max-width: 480px) {
+    h2 {
+        width: 70vw;
+        margin-left: 50px;
+    }
+    
+    .container .row {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .container .row .col .card {
+        width: 90vw;
+        margin-bottom: 20px;
+    }
+    
+    .container .row .col .card img:nth-child(1) {
+        margin-top: 50px;
+    }
+    
+    .steps {
+        margin: 0;
+    }
+    
+    .why-us {
+        background-color: #222222;
+    }
+    
+    .why-us .text-center {
+        padding-top: 60px;
+    }
+    
+    .why-us .container .row img {
+        width: 90vw;
+    }
+    
+    .why-us .container .row .col-right {
+        width: 95vw;
+        margin-top: 65px;
+        padding: 0;
+    }
+    
+    .why-us .container .row .col-right li:nth-child(3) {
+        padding-bottom: 60px;
+    }
+}
+
+/* TABLET */
+@media (max-width: 768px)
