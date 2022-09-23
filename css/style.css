@@ -133,7 +133,11 @@ SOLUZIONE RESPONSIVE
 @media (max-width: 480px) {
     h2 {
         width: 70vw;
-        margin-left: 20px;
+        margin-left: 40px;
+    }
+
+    .container {
+        padding: 0;
     }
 
     .container .row {
@@ -144,6 +148,7 @@ SOLUZIONE RESPONSIVE
     .container .row .col .card {
         width: 75vw;
         margin-bottom: 20px;
+        padding-left: 50px;
     }
     
     .container .row .col .card img:nth-child(1) {
@@ -163,8 +168,8 @@ SOLUZIONE RESPONSIVE
         padding-top: 60px;
     }
     
-    .why-us .container .row img {
-        width: 100vw;
+    .why-us .col-left {
+        width: 100%;
     }
     
     .why-us .container .row .col-right {
