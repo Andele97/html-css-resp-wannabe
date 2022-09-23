@@ -133,7 +133,7 @@ SOLUZIONE RESPONSIVE
 @media (max-width: 480px) {
     h2 {
         width: 70vw;
-        margin-left: 50px;
+        margin-left: 30px;
     }
     
     .container .row {
@@ -142,7 +142,7 @@ SOLUZIONE RESPONSIVE
     }
     
     .container .row .col .card {
-        width: 90vw;
+        width: 75vw;
         margin-bottom: 20px;
     }
     
@@ -163,7 +163,7 @@ SOLUZIONE RESPONSIVE
     }
     
     .why-us .container .row img {
-        width: 90vw;
+        width: 100vw;
     }
     
     .why-us .container .row .col-right {
@@ -175,7 +175,15 @@ SOLUZIONE RESPONSIVE
     .why-us .container .row .col-right li:nth-child(3) {
         padding-bottom: 60px;
     }
+
+    .why-us .container .row .col-right li p {
+        padding-right: 30px;
+    }
 }
 
 /* TABLET */
-@media (max-width: 768px)
+@media (max-width: 768px) {
+     .container {
+        width: 90vw;
+    }
+}
