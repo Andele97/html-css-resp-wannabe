@@ -133,9 +133,9 @@ SOLUZIONE RESPONSIVE
 @media (max-width: 480px) {
     h2 {
         width: 70vw;
-        margin-left: 30px;
+        margin-left: 20px;
     }
-    
+
     .container .row {
         display: flex;
         flex-direction: column;
@@ -154,6 +154,7 @@ SOLUZIONE RESPONSIVE
         margin: 0;
     }
     
+    /* Why-us */
     .why-us {
         background-color: #222222;
     }
