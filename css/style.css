@@ -53,7 +53,6 @@ UTILITIES
     padding: 0 20px;
 }
 
-
 .row {
     display: flex;
 }
@@ -113,6 +112,7 @@ SITE SECTIONS
 .why-us {
     margin-bottom: 3rem;
 }
+
 .why-us .col-left {
     width: 40%;
 }
@@ -162,6 +162,7 @@ SOLUZIONE RESPONSIVE
     /* Why-us */
     .why-us {
         background-color: #222222;
+        margin-bottom: 0;
     }
     
     .why-us .text-center {
