@@ -194,3 +194,10 @@ SOLUZIONE RESPONSIVE
         width: 90vw;
     }
 }
+
+/* DESKTOP */
+@media (min-width: 769px) {
+    .container {
+        width: 100vw;
+    }
+}
